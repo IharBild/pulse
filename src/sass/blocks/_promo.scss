@@ -31,7 +31,7 @@
     }
     &__icon {
 
-        width: 160px;
+        max-width: 160px;
         padding: 0 20px;
         text-align: center;
         font-weight: 500;
@@ -57,4 +57,31 @@
         }
     }
 
+}
+
+@media screen and (max-width: 992px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .promo {
+        &__header{
+            font-size: 7vw;
+        }
+        &__subheader {
+            font-size: 4vw;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .promo {
+        &__wrapper {
+            margin-top: 62px;
+        }
+    }
 }
