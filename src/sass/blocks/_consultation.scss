@@ -1,0 +1,27 @@
+.consultation {
+    min-height: 680px;
+    padding: 108px 0 108px;
+    background: url('../../img/bg/d3-bg.jpg') center (center/cover) no-repeat;
+    &__descr {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color: #FFFFFF;
+        letter-spacing: 0.4px;
+
+    }
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #0d0d0d;
+    text-align: center;
+    &_left {
+        line-height: 50px;
+        letter-spacing: 0.4px;
+        color: #FFFFFF;
+        text-align: left;
+    }
+}
