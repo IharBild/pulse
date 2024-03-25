@@ -1,7 +1,8 @@
 .consultation {
     min-height: 680px;
-    padding: 108px 0 108px;
+    padding: 104px 0 108px;
     background: url('../../img/bg/d3-bg.jpg') center (center/cover) no-repeat;
+
     &__descr {
         font-weight: 500;
         font-size: 20px;
@@ -18,10 +19,65 @@
     text-transform: uppercase;
     color: #0d0d0d;
     text-align: center;
+
     &_left {
-        line-height: 50px;
+        line-height: 52px;
         letter-spacing: 0.4px;
         color: #FFFFFF;
         text-align: left;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .feed-form {
+        margin: 36px auto 0;
+    }
+    
+    .title_left {
+        text-align: center;
+    }
+
+    .consultation__descr {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .title_left {
+        padding: 0 20px;
+        font-size: 3.6vw;
+    }
+    .consultation__descr {
+        font-size: 2vw;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title_left {
+        padding: 0 20px;
+        font-size: 3vw;
+        line-height: 36px;
+    }
+    .consultation__descr {
+        font-size: 2.5vw;
+        line-height: 22px;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .title_left {
+        padding: 0 20px;
+        font-size: 5.6vw;
+        line-height: 36px;
+    }
+    .consultation__descr {
+        font-size: 4vw;
+        line-height: 22px;
+
+    }
+}
+
+ 
